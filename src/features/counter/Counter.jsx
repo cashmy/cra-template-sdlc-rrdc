@@ -18,7 +18,7 @@ export function Counter() {
   const incrementValue = Number(incrementAmount) || 0;
 
   return (
-    <div>
+    <div id="counter">
       <div className={styles.row}>
         <button
           className={styles.button}
@@ -27,7 +27,10 @@ export function Counter() {
         >
           -
         </button>
-        <span className={styles.value}>{count}</span>
+        <span
+          id="redux-value"
+          className={styles.value}
+        >{count}</span>
         <button
           className={styles.button}
           aria-label="Increment value"
@@ -38,6 +41,7 @@ export function Counter() {
       </div>
       <div className={styles.row}>
         <input
+          id="app-textbox"
           className={styles.textbox}
           aria-label="Set increment amount"
           value={incrementAmount}
