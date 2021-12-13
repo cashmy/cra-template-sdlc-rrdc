@@ -1,6 +1,7 @@
 {
     "name": "cra-template-sdlc-rrdc",
     "version": "1.0.0",
+    "author": "Cash Myers <https://github.com/cashmy>",
     "keywords": [
         "react",
         "create-react-app",
@@ -8,10 +9,12 @@
         "sdlc",
         "rtk",
         "redux",
+        "reduxjs",
+        "react-redux",
         "react-router",
         "cypress"
     ],
-    "description": "The base template for Create React App SDLC with Router, Redux, Docker & Cypress.",
+    "description": "A base template for Create React App SDLC with Router, Redux, Docker & Cypress.",
     "repository": {
         "type": "git",
         "url": "https://github.com/cashmy/cra-template-sdlc-rrdc.git"
@@ -26,5 +29,39 @@
     "files": [
         "template",
         "template.json"
-    ]
+    ],
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.5.1",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
+        "axios": "^0.24.0",
+        "cypress": "^9.1.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.3",
+        "react-router-dom": "^6.1.1",
+        "react-scripts": "4.0.3"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
 }
