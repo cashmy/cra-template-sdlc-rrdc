@@ -2,10 +2,6 @@
 
 ## Software Development Life Cycle for React with RTK, Router, Docker, and Cypress 
 
-To use this template, in your command prompt type:
-
-`npx create-react-app my-app --template sdlc-rrdc`
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 It was then customized to incorporate [ReactRouter](https://reactrouter.com/), [Docker](https://docker.com) and [Cypress](https://cypress.io)
