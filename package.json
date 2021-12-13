@@ -14,8 +14,7 @@
     "description": "The base template for Create React App SDLC with Router, Redux, Docker & Cypress.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cashmy/cra-template-sdlc-rrdc.git",
-        "directory": "packages/cra-template-sdlc-rrdc"
+        "url": "https://github.com/cashmy/cra-template-sdlc-rrdc.git"
     },
     "license": "MIT",
     "engines": {
