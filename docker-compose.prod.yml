@@ -2,6 +2,7 @@ version: '3.9'
 
 services: 
   
+  # TODO: Rename sdlc-rrdc-prod to your application name (eg: my-app-prod)
   docker-react-prod:
     container_name: sldc-rrdc-prod
     build:

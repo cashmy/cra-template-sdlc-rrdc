@@ -2,6 +2,7 @@ version: '3.9'
 
 services:
     
+    # TODO: Rename sdlc-rrdc to your application name (eg: my-app)
     docker-react:
         container_name: sdlc-rrdc
         build: 
