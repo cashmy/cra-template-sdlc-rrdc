@@ -1,0 +1,31 @@
+{
+    "name": "cra-template-sdlc-rrdc",
+    "version": "1.0.0",
+    "keywords": [
+        "react",
+        "create-react-app",
+        "template",
+        "sdlc",
+        "rtk",
+        "redux",
+        "react-router",
+        "cypress"
+    ],
+    "description": "The base template for Create React App SDLC with Router, Redux, Docker & Cypress.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cashmy/cra-template-sdlc-rrdc.git",
+        "directory": "packages/cra-template-sdlc-rrdc"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=14"
+    },
+    "bugs": {
+        "url": "https://github.com/cashmy/cra-template-sdlc-rrdc/issues"
+    },
+    "files": [
+        "template",
+        "template.json"
+    ]
+}
